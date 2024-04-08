@@ -1,0 +1,31 @@
+HETATM    1  C1  IBP B 601      16.786  12.747  67.198  1.00 29.03           C  
+HETATM    2  C2  IBP B 601      22.202  16.247  68.565  1.00 23.90           C  
+HETATM    3  C3  IBP B 601      21.617  17.648  68.647  1.00 23.93           C  
+HETATM    4  C4  IBP B 601      20.857  17.813  69.964  1.00 24.36           C  
+HETATM    5  C5  IBP B 601      22.763  18.645  68.667  1.00 25.40           C  
+HETATM    6  C6  IBP B 601      18.142  12.164  67.526  1.00 22.26           C  
+HETATM    7  C7  IBP B 601      18.567  11.108  66.525  1.00 26.57           C  
+HETATM    8  C8  IBP B 601      19.191  13.240  67.737  1.00 25.96           C  
+HETATM    9  C9  IBP B 601      19.602  13.508  69.034  1.00 24.90           C  
+HETATM   10  C10 IBP B 601      20.561  14.466  69.318  1.00 26.92           C  
+HETATM   11  C11 IBP B 601      21.135  15.190  68.272  1.00 29.37           C  
+HETATM   12  C12 IBP B 601      20.736  14.910  66.977  1.00 22.28           C  
+HETATM   13  C13 IBP B 601      19.767  13.947  66.682  1.00 22.96           C  
+HETATM   14  O1  IBP B 601      15.844  12.746  68.077  1.00 29.40           O  
+HETATM   15  O2  IBP B 601      16.625  13.239  66.038  1.00 26.61           O  
+CONECT    1    6   14   15   15
+CONECT    2    3   11
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3
+CONECT    6    1    7    8
+CONECT    7    6
+CONECT    8    6    9    9   13
+CONECT    9    8    8   10
+CONECT   10    9   11   11
+CONECT   11    2   10   10   12
+CONECT   12   11   13   13
+CONECT   13    8   12   12
+CONECT   14    1
+CONECT   15    1    1
+END
