@@ -1,0 +1,5 @@
+parm /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/4PH9.pdb
+loadcrd /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/4PH9.pdb name edited
+prepareforleap crdset edited name from-prepareforleap \ 
+pdbout /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/starting1.pdb nowat noh
+go 

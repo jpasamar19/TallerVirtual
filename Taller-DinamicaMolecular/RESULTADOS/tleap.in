@@ -1,0 +1,23 @@
+source leaprc.protein.ff14SB
+source leaprc.DNA.OL15
+source leaprc.RNA.OL3
+source leaprc.GLYCAM_06j-1
+source leaprc.gaff2
+source leaprc.water.tip3p
+loadamberparams /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/ligand.frcmod
+loadoff /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/lig.lib
+SYS = loadpdb /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/protein_ligand.pdb
+alignaxes SYS
+check SYS
+charge SYS
+addions SYS Na+ 0
+addions SYS Cl- 0
+check SYS
+charge SYS
+savepdb SYS /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_nw.pdb
+saveamberparm SYS /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_nw.prmtop /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_nw.crd
+solvatebox SYS TIP3PBOX 9 0.7 
+addIonsRand SYS Na+ 58 Cl- 58
+saveamberparm SYS /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.prmtop /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.crd
+savepdb SYS /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS.pdb
+quit

@@ -1,0 +1,19 @@
+# 04/22/24 15:41:51
+# Args:  -p /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.prmtop
+# Loaded topologies:
+#   /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.prmtop
+trajin /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/prot_lig_prod_1.dcd
+strip :WAT
+trajout /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/prot_lig_prod_1_nw.dcd
+go
+quit
+# 04/22/24 15:45:32
+# Args:  -p /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.prmtop
+# Loaded topologies:
+#   /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/SYS_gaff2.prmtop
+trajin /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/prot_lig_prod_1.dcd
+strip :WAt
+strip :Na+
+trajout /content/TallerVirtual/Taller-DinamicaMolecular/INPUT/prot_lig_prod_1_nw.dcd
+go
+quit

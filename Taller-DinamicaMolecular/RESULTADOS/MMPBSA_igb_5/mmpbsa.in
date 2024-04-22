@@ -1,0 +1,11 @@
+Per-residue GB and PB decomposition
+&general
+   endframe=1, verbose=1,
+/
+&gb
+   igb=5, saltcon=0.15,
+/
+&decomp
+   idecomp=3, print_res="89,324,552"
+   dec_verbose=1,
+/
